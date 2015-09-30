@@ -8,6 +8,12 @@ To install it::
     sudo npm install -g browserify
     pip install django-pipeline-browserify
 
+Enable the `django-pipeline` app in your `settings.py`::
+
+    INSTALLED_APPS = (
+        'pipeline',
+    )
+
 And add it as a compiler to pipeline in your django `settings.py`::
 
     PIPELINE_COMPILERS = (
